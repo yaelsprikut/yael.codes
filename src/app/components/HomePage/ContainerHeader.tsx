@@ -26,9 +26,9 @@ export function ContainerHeader() {
 export function LinkHeader() {
   return (
     <>
-        <a className="main-header-link" onClick={(e: Any) => e.target.className = "main-header-link is-active"} onBlur={(e) => e.target.className = "main-header-link"} href="#">Desktop</a>
-        <a className="main-header-link" onClick={(e: Any) => e.target.className = "main-header-link is-active"} onBlur={(e) => e.target.className = "main-header-link"} href="#">Mobile</a>
-        <a className="main-header-link" onClick={(e: Any) => e.target.className = "main-header-link is-active"} onBlur={(e) => e.target.className = "main-header-link"} href="#">Web</a>
+        <a className="main-header-link" onClick={(e: any) => e.target.className = "main-header-link is-active"} onBlur={(e) => e.target.className = "main-header-link"} href="#">Desktop</a>
+        <a className="main-header-link" onClick={(e: any) => e.target.className = "main-header-link is-active"} onBlur={(e) => e.target.className = "main-header-link"} href="#">Mobile</a>
+        <a className="main-header-link" onClick={(e: any) => e.target.className = "main-header-link is-active"} onBlur={(e) => e.target.className = "main-header-link"} href="#">Web</a>
     </>
   );
 }
