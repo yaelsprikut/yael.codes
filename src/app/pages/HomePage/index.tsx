@@ -262,7 +262,7 @@ export function HomePage() {
                       <a className="white-link">RPi GPi</a>
                     </span>
                     <div className="app-card__subtext">
-                      <img src="./gpi.png" width="100%" height="430px" />
+                      <img src="./gpi.png" width="721px" height="362px" />
                     </div>
                     <div className="app-card-subtext">
                       GPi running on the tiny $10 Raspberry Pi Zero computer
@@ -270,8 +270,31 @@ export function HomePage() {
                       <a className="white-link" href="https://retropie.org.uk/">
                         <b>RetroPie</b>
                       </a>{' '}
-                      software library
+                      software library. First game installed is{' '}
+                      <b>Mortal Kombat</b>
                     </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-section">
+                <div className="content-section-title">Arduino</div>
+                <div className="app-card">
+                  <span>
+                    <a className="white-link">Arduino Nano LED</a>
+                  </span>
+                  <div className="app-card__subtext">
+                    <img src="./arduino.gif" width="721px" height="362px" />
+                  </div>
+                  <div className="app-card-subtext">
+                    This small project is my first Arduino project built with
+                    Arduino Nano and Adafruit NeoPixel ring to create this
+                    awesome mini lightshow.{' '}
+                    <a
+                      className="white-link"
+                      href="https://github.com/yaelsprikut/arduino-scripts"
+                    >
+                      Github
+                    </a>
                   </div>
                 </div>
               </div>
