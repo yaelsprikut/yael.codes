@@ -25,9 +25,7 @@ export function HomePage() {
 		</div> */}
 		<div className="header-profile">
 		<div className="notification">
-			<span className="notification-number">3</span> <svg className="feather feather-bell" viewBox="0 0 24 24">
-			<path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 01-3.46 0"></path></svg>
-		</div><img alt="" className="profile-img" src="https://avatars.githubusercontent.com/u/6987802?s=400&u=7a37ff66d9789192a2ea0a3a608590317a90081f&v=4"/></div>
+		</div><img alt="github image" className="profile-img" src="https://avatars.githubusercontent.com/u/6987802?s=400&u=7a37ff66d9789192a2ea0a3a608590317a90081f&v=4"/></div>
 	</div>
 	<div className="wrapper">
 		<Sidebar />
