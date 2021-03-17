@@ -220,7 +220,7 @@ export function HomePage() {
                       <img src="./rpi-music.jpeg" width="100%" />
                     </div>
                     <div className="app-card-subtext">
-                      a media server / jukebox. I’m hosting all my .mp3 files on
+                      A media server / jukebox. I’m hosting all my .mp3 files on
                       old USBs, and I’m running nvlc to play the files.
                       configured with{' '}
                       <a
