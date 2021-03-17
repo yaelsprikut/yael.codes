@@ -34,7 +34,7 @@ export function HomePage() {
           <div className="header-profile">
             <div className="notification"></div>
             <img
-              alt="github image"
+              alt="github"
               className="profile-img"
               src="https://avatars.githubusercontent.com/u/6987802?s=400&u=7a37ff66d9789192a2ea0a3a608590317a90081f&v=4"
             />
@@ -98,59 +98,6 @@ export function HomePage() {
                     <div className="app-card-subtext">
                       A simple web interface for updating library versions in
                       package.json
-                    </div>
-                  </div>
-                </div>
-                <div className="content-section">
-                  <div className="content-section-title">
-                    Raspberry PI Projects
-                  </div>
-                  <div className="app-card">
-                    <span>
-                      <a
-                        className="white-link"
-                        href="https://yaelsprikut.github.io/update-versions/"
-                      >
-                        RPi VLC Server
-                      </a>
-                    </span>
-                    <div className="app-card__subtext">
-                      <img src="./rpi-music.jpeg" width="100%" />
-                    </div>
-                    <div className="app-card-subtext">
-                      a media server / jukebox. I’m hosting all my .mp3 files on
-                      old USBs, and I’m running nvlc to play the files.
-                      configured with{' '}
-                      <a
-                        className="white-link"
-                        href="https://github.com/dtcooper/raspotify"
-                      >
-                        <b>raspotify</b>
-                      </a>
-                    </div>
-                  </div>
-                  <div className="app-card">
-                    <span>
-                      <a
-                        className="white-link"
-                        href="https://yaelsprikut.github.io/update-versions/"
-                      >
-                        RPi VLC Server
-                      </a>
-                    </span>
-                    <div className="app-card__subtext">
-                      <img src="./rpi-music.jpeg" width="100%" />
-                    </div>
-                    <div className="app-card-subtext">
-                      a media server / jukebox. I’m hosting all my .mp3 files on
-                      old USBs, and I’m running nvlc to play the files.
-                      configured with{' '}
-                      <a
-                        className="white-link"
-                        href="https://github.com/dtcooper/raspotify"
-                      >
-                        <b>raspotify</b>
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -254,6 +201,53 @@ export function HomePage() {
 							</div>
 						</li>
 					</ul> */}
+              </div>
+              <div className="content-section">
+                <div className="content-section-title">
+                  Raspberry PI Projects
+                </div>
+                <div className="apps-card">
+                  <div className="app-card">
+                    <span>
+                      <a
+                        className="white-link"
+                        href="https://yaelsprikut.github.io/update-versions/"
+                      >
+                        RPi VLC Server
+                      </a>
+                    </span>
+                    <div className="app-card__subtext">
+                      <img src="./rpi-music.jpeg" width="100%" />
+                    </div>
+                    <div className="app-card-subtext">
+                      a media server / jukebox. I’m hosting all my .mp3 files on
+                      old USBs, and I’m running nvlc to play the files.
+                      configured with{' '}
+                      <a
+                        className="white-link"
+                        href="https://github.com/dtcooper/raspotify"
+                      >
+                        <b>raspotify</b>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="app-card">
+                    <span>
+                      <a className="white-link">RPi GPi</a>
+                    </span>
+                    <div className="app-card__subtext">
+                      <img src="./gpi.png" width="100%" height="430px" />
+                    </div>
+                    <div className="app-card-subtext">
+                      GPi running on the tiny $10 Raspberry Pi Zero computer
+                      using the free{' '}
+                      <a className="white-link" href="https://retropie.org.uk/">
+                        <b>RetroPie</b>
+                      </a>{' '}
+                      software library
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="content-section">
                 <div className="content-section-title">Backbone.js</div>
