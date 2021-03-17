@@ -4,20 +4,46 @@ import '../../../styles/styles.scss';
 
 import { ModeToggle } from '../../components/HomePage/ModeToggle';
 import { Sidebar } from '../../components/HomePage/Sidebar';
-import {
-  ContainerHeader,
-  LinkHeader,
-} from '../../components/HomePage/ContainerHeader';
+// import {
+//   ContainerHeader,
+//   LinkHeader,
+// } from '../../components/HomePage/ContainerHeader';
 
 export function HomePage() {
   return (
     <>
       <Helmet>
         <title>Home Page</title>
-        <meta name="description" content="A Boilerplate application homepage" />
+        <meta name="description" content="yael.codes homepage" />
       </Helmet>
       <ModeToggle />
-      <div className="app">
+      <div className="show-for-mobile">
+        <div className="header">
+          <div className="menu-circle"></div>
+          <div className="header-menu">
+            <a className="menu-link is-active" href="#">
+              Apps
+            </a>
+            <a className="menu-link" href="#">
+              About Me
+            </a>
+          </div>
+          <div className="header-profile">
+            <div className="notification"></div>
+            <img
+              alt="github"
+              className="profile-img"
+              src="https://avatars.githubusercontent.com/u/6987802?s=400&u=7a37ff66d9789192a2ea0a3a608590317a90081f&v=4"
+            />
+          </div>
+        </div>
+        <div className="construction-message">
+          <img src="./partyparrot.png" />
+          <h1>🚧&nbsp;UNDER CONSTRUCTION&nbsp;🚧</h1>
+          <h2>🚧&nbsp; Please visit on desktop.&nbsp;🚧</h2>
+        </div>
+      </div>
+      <div className="app hide-for-mobile">
         <div className="header">
           <div className="menu-circle"></div>
           <div className="header-menu">

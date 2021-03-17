@@ -85,6 +85,10 @@ img {
   }
 }
 
+.show-for-mobile {
+  display: none;
+}
+
 .light-mode {
   .dark-light svg {
     fill: transparent;
@@ -863,22 +867,27 @@ body.light-mode:before {
 }
 
 @media screen and (max-width: 945px) {
-  .content-wrapper {
-    padding: 0 !important;
-  }
-  .app {
-    max-width: 100%;
-    overflow: initial;
-  }
-  .app-card {
-    margin-top: 2rem;
-  }
   .under-construction {
     display: none;
   }
-  .dark-light,
-  .left-side,
-  .header {
+  .hide-for-mobile {
     display: none;
+  }
+  .construction-message {
+    margin-top: 30%;
+    text-align: center;
+    background: rgba(76, 175, 80, 0.3);
+  }
+  .dark-light {
+    display: none;
+  }
+  .show-for-mobile {
+    display: block;
+    h1 {
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 18px;
+    }
   }
 }
