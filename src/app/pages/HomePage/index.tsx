@@ -18,7 +18,7 @@ export function HomePage() {
 	<div className="header">
 		<div className="menu-circle"></div>
 		<div className="header-menu">
-			<a className="menu-link is-active" href="#">Apps</a> <a className="menu-link notify" href="#">My work</a> <a className="menu-link" href="#">About Me</a>
+			<a className="menu-link is-active" href="#">Apps</a><a className="menu-link" href="#">About Me</a>
 		</div>
 		{/* <div className="search-bar">
 			<input placeholder="Search" type="text" />
@@ -27,8 +27,7 @@ export function HomePage() {
 		<div className="notification">
 			<span className="notification-number">3</span> <svg className="feather feather-bell" viewBox="0 0 24 24">
 			<path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 01-3.46 0"></path></svg>
-		</div><svg viewBox="0 0 512 512">
-		<path d="M448.773 235.551A135.893 135.893 0 00451 211c0-74.443-60.557-135-135-135-47.52 0-91.567 25.313-115.766 65.537-32.666-10.59-66.182-6.049-93.794 12.979-27.612 19.013-44.092 49.116-45.425 82.031C24.716 253.788 0 290.497 0 331c0 7.031 1.703 13.887 3.006 20.537l.015.015C12.719 400.492 56.034 436 106 436h300c57.891 0 106-47.109 106-105 0-40.942-25.053-77.798-63.227-95.449z"></path></svg> <img alt="" className="profile-img" src="https://avatars.githubusercontent.com/u/6987802?s=400&u=7a37ff66d9789192a2ea0a3a608590317a90081f&v=4"/></div>
+		</div><img alt="" className="profile-img" src="https://avatars.githubusercontent.com/u/6987802?s=400&u=7a37ff66d9789192a2ea0a3a608590317a90081f&v=4"/></div>
 	</div>
 	<div className="wrapper">
 		<Sidebar />
@@ -46,6 +45,50 @@ export function HomePage() {
 					<div className="content-section-title">
 						React.js
 					</div>
+					<div className="apps-card">
+						<div className="app-card">
+							<span><a className="white-link" href="http://lowereffortmemes.s3.amazonaws.com/index.html">low(er)effortmemes.com</a></span>
+							<div className="app-card__subtext">
+								<img src="./loweffortmemes-thumb.png" width="100%" />
+							</div>
+							<div className="app-card-subtext">
+								Remember <b>I Can Has Cheezburger</b>? It's like that, but less effort
+							</div>
+						</div>
+						<div className="app-card">
+							<span><a className="white-link" href="http://yael.co">yael.co</a></span>
+							<div className="app-card__subtext">
+								<img src="./desktop.png" width="100%" />
+							</div>
+							<div className="app-card-subtext">
+							A website I created as my home site, based on my desktop
+							</div>
+						</div>
+						<div className="app-card">
+							<span><a className="white-link" href="https://yaelsprikut.github.io/update-versions/">$ package.json update editor</a></span>
+								<div className="app-card__subtext">
+									<img src="./update-npm.png" width="100%" />
+								</div>
+								<div className="app-card-subtext">
+								A simple web interface for updating library versions in package.json
+								</div>
+						</div>
+					</div>
+					<div className="content-section">
+					<div className="content-section-title">
+						Raspberry PI Projects
+					</div>
+					<div className="app-card">
+							<span><a className="white-link" href="https://yaelsprikut.github.io/update-versions/">RPi VLC Server</a></span>
+							<div className="app-card__subtext">
+									<img src="./rpi-music.jpeg" width="100%" />
+								</div>
+								<div className="app-card-subtext">
+								a media server / jukebox. I’m hosting all my .mp3 files on old USBs, and I’m running nvlc to play the files.
+								configured with <a className="white-link" href="https://github.com/dtcooper/raspotify"><b>raspotify</b></a>
+								</div>
+							</div>
+				</div>
 					{/* <ul>
 						<li className="adobe-product">
 							<div className="products">
@@ -151,6 +194,7 @@ export function HomePage() {
 					<div className="content-section-title">
 						Backbone.js
 					</div>
+					🚧&nbsp;&nbsp;Under construction 🚧
 					{/* <div className="apps-card">
 						<div className="app-card">
 							<span><svg style={{"border": "1px solid #a059a9"}} viewBox="0 0 512 512">
@@ -200,6 +244,7 @@ export function HomePage() {
 					<div className="content-section-title">
 						Vue.js
 					</div>
+					🚧&nbsp;&nbsp;Under construction 🚧
 				</div>
 			</div>
 		</div>

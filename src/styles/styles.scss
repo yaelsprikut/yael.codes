@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 * {
  outline: none;
@@ -8,7 +9,7 @@
 :root {
  --theme-bg-color: rgba(16 18 27 / 40%);
  --border-color: rgba(113 119 144 / 25%);
- --theme-color: #f9fafb;
+ --theme-color: #f9f1f1;
  --inactive-color: rgb(113 119 144 / 78%);
  --body-font: "Poppins", sans-serif;
  --hover-menu-bg: rgba(12 15 25 / 30%);
@@ -114,9 +115,20 @@ body.light-mode:before {
     backdrop-filter: saturate(3);
 }
 
+/** CUSTOM **/
+.white-link {
+  color: var(--theme-color);
+  text-decoration: none;
+  font-weight: 100;
+  &:hover {
+    color: var(--theme-color);
+    border-bottom: 2px solid var(--theme-color);
+   }
+}
+
 .app {
  background-color: var(--theme-bg-color);
- max-width: 1250px;
+ max-width: 95%;
  max-height: 860px;
  height: 90vh;
  display: flex;
@@ -765,6 +777,13 @@ body.light-mode:before {
  }
 }
 
+.app-card-subtext {
+  font-weight: 300;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  padding-top: 1rem;
+  color: #f9f1f1;
+}
 .apps-card {
  display: flex;
  align-items: center;
@@ -781,7 +800,7 @@ body.light-mode:before {
  border-radius: 14px;
  border: 1px solid var(--theme-bg-color);
  padding: 20px;
- cursor: pointer;
+//  cursor: pointer;
  transition: 0.3s ease;
  &:hover {
   transform: scale(1.02);

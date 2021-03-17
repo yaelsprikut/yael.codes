@@ -8,15 +8,8 @@ export function Sidebar() {
 				<div className="side-title">
 					{/* Apps */}
 				</div>
-				<div className="side-menu">
-					<a href="http://yael.co"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
-            <path d="M9 22V12h6v10" />
-          </svg> Home</a> <a href="#"><svg viewBox="0 0 488.932 488.932">
-					<path d="M243.158 61.361v-57.6c0-3.2 4-4.9 6.7-2.9l118.4 87c2 1.5 2 4.4 0 5.9l-118.4 87c-2.7 2-6.7.2-6.7-2.9v-57.5c-87.8 1.4-158.1 76-152.1 165.4 5.1 76.8 67.7 139.1 144.5 144 81.4 5.2 150.6-53 163-129.9 2.3-14.3 14.7-24.7 29.2-24.7 17.9 0 31.8 15.9 29 33.5-17.4 109.7-118.5 192-235.7 178.9-98-11-176.7-89.4-187.8-187.4-14.7-128.2 84.9-237.4 209.9-238.8z"></path></svg> LinkedIn <span className="notification-number updates">3</span></a>
-				</div>
 			</div>
-			<div className="side-wrapper">
+			{/* <div className="side-wrapper">
 				<div className="side-title">
 					Introduction
 				</div>
@@ -31,7 +24,7 @@ export function Sidebar() {
 					<path d="M15 331h196v60h-75c-8.291 0-15 6.709-15 15s6.709 15 15 15h135v-30h-30v-60h30V166c0-24.814 20.186-45 45-45h135V46c0-8.284-6.716-15-15-15H15C6.716 31 0 37.716 0 46v270c0 8.284 6.716 15 15 15z"></path></svg> UI/UX</a> <a href="#"><svg viewBox="0 0 512 512">
 					<path d="M0 331v112.295a14.996 14.996 0 007.559 13.023L106 512V391L0 331zM136 391v121l105-60V331zM271 331v121l105 60V391zM406 391v121l98.441-55.682A14.995 14.995 0 00512 443.296V331l-106 60zM391 241l-115.754 57.876L391 365.026l116.754-66.15zM262.709 1.583a15.006 15.006 0 00-13.418 0L140.246 57.876 256 124.026l115.754-66.151L262.709 1.583zM136 90v124.955l105 52.5V150zM121 241L4.246 298.876 121 365.026l115.754-66.15zM271 150v117.455l105-52.5V90z"></path></svg> 3D/AR</a>
 				</div>
-			</div>
+			</div> */}
 			{/* <div className="side-wrapper">
 				<div className="side-title">
 					Fonts
@@ -58,6 +51,15 @@ export function Sidebar() {
 					<path d="M464 128h-16v128c0 52.928-43.072 96-96 96H129.376L128 353.152V400c0 26.464 21.536 48 48 48h234.368l75.616 60.512A16.158 16.158 0 00496 512c2.336 0 4.704-.544 6.944-1.6A15.968 15.968 0 00512 496V176c0-26.464-21.536-48-48-48z"></path></svg> Social Forum</a>
 				</div>
 			</div> */}
+      	<div className="side-menu">
+        <div className="side-wrapper">
+          <div className="side-title">
+					Reach Me 
+          <a href="https://www.linkedin.com/in/yaelsprikut/"><a href="https://www.linkedin.com/in/yaelsprikut/" className="fa fa-lg fa-linkedin"></a>&nbsp;LinkedIn/yaelsprikut</a>
+          <a href="https://github.com/yaelsprikut/"><a href="https://github.com/yaelsprikut/" className="fa fa-lg fa-github"></a>&nbsp;GitHub/yaelsprikut</a>
+			  	</div>
+        </div>
+				</div>
 		</div>
     </>
   );
