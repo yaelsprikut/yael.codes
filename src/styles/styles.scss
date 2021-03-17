@@ -85,6 +85,10 @@ img {
   }
 }
 
+.show-for-mobile {
+  display: none;
+}
+
 .light-mode {
   .dark-light svg {
     fill: transparent;
@@ -860,4 +864,30 @@ body.light-mode:before {
 ::-webkit-scrollbar-thumb {
   background: var(--scrollbar-bg);
   border-radius: 10px;
+}
+
+@media screen and (max-width: 945px) {
+  .under-construction {
+    display: none;
+  }
+  .hide-for-mobile {
+    display: none;
+  }
+  .construction-message {
+    margin-top: 30%;
+    text-align: center;
+    background: rgba(76, 175, 80, 0.3);
+  }
+  .dark-light {
+    display: none;
+  }
+  .show-for-mobile {
+    display: block;
+    h1 {
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+  }
 }
