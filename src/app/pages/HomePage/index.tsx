@@ -249,7 +249,7 @@ export function HomePage() {
                   </div>
                 </div>
               </div>
-              <div className="content-section">
+              <div className="content-section under-construction">
                 <div className="content-section-title">Backbone.js</div>
                 🚧&nbsp;&nbsp;Under construction 🚧
                 {/* <div className="apps-card">
@@ -297,7 +297,7 @@ export function HomePage() {
 						</div>
 					</div> */}
               </div>
-              <div className="content-section">
+              <div className="content-section under-construction">
                 <div className="content-section-title">Vue.js</div>
                 🚧&nbsp;&nbsp;Under construction 🚧
               </div>

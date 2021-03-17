@@ -861,3 +861,24 @@ body.light-mode:before {
   background: var(--scrollbar-bg);
   border-radius: 10px;
 }
+
+@media screen and (max-width: 945px) {
+  .content-wrapper {
+    padding: 0 !important;
+  }
+  .app {
+    max-width: 100%;
+    overflow: initial;
+  }
+  .app-card {
+    margin-top: 2rem;
+  }
+  .under-construction {
+    display: none;
+  }
+  .dark-light,
+  .left-side,
+  .header {
+    display: none;
+  }
+}
