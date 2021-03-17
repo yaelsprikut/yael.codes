@@ -4,12 +4,10 @@ export function Sidebar() {
   return (
     <>
       <div className="left-side">
-			<div className="side-wrapper">
-				<div className="side-title">
-					{/* Apps */}
-				</div>
-			</div>
-			{/* <div className="side-wrapper">
+        <div className="side-wrapper">
+          <div className="side-title">{/* Apps */}</div>
+        </div>
+        {/* <div className="side-wrapper">
 				<div className="side-title">
 					Introduction
 				</div>
@@ -25,7 +23,7 @@ export function Sidebar() {
 					<path d="M0 331v112.295a14.996 14.996 0 007.559 13.023L106 512V391L0 331zM136 391v121l105-60V331zM271 331v121l105 60V391zM406 391v121l98.441-55.682A14.995 14.995 0 00512 443.296V331l-106 60zM391 241l-115.754 57.876L391 365.026l116.754-66.15zM262.709 1.583a15.006 15.006 0 00-13.418 0L140.246 57.876 256 124.026l115.754-66.151L262.709 1.583zM136 90v124.955l105 52.5V150zM121 241L4.246 298.876 121 365.026l115.754-66.15zM271 150v117.455l105-52.5V90z"></path></svg> 3D/AR</a>
 				</div>
 			</div> */}
-			{/* <div className="side-wrapper">
+        {/* <div className="side-wrapper">
 				<div className="side-title">
 					Fonts
 				</div>
@@ -51,16 +49,28 @@ export function Sidebar() {
 					<path d="M464 128h-16v128c0 52.928-43.072 96-96 96H129.376L128 353.152V400c0 26.464 21.536 48 48 48h234.368l75.616 60.512A16.158 16.158 0 00496 512c2.336 0 4.704-.544 6.944-1.6A15.968 15.968 0 00512 496V176c0-26.464-21.536-48-48-48z"></path></svg> Social Forum</a>
 				</div>
 			</div> */}
-      	<div className="side-menu">
-        <div className="side-wrapper">
-          <div className="side-title">
-					Reach Me 
-          <a href="https://www.linkedin.com/in/yaelsprikut/"><a href="https://www.linkedin.com/in/yaelsprikut/" className="fa fa-lg fa-linkedin"></a>&nbsp;LinkedIn/yaelsprikut</a>
-          <a href="https://github.com/yaelsprikut/"><a href="https://github.com/yaelsprikut/" className="fa fa-lg fa-github"></a>&nbsp;GitHub/yaelsprikut</a>
-			  	</div>
+        <div className="side-menu">
+          <div className="side-wrapper">
+            <div className="side-title">
+              Reach Me
+              <a href="https://www.linkedin.com/in/yaelsprikut/">
+                <a
+                  href="https://www.linkedin.com/in/yaelsprikut/"
+                  className="fa fa-lg fa-linkedin"
+                ></a>
+                &nbsp;LinkedIn/yaelsprikut
+              </a>
+              <a href="https://github.com/yaelsprikut/">
+                <a
+                  href="https://github.com/yaelsprikut/"
+                  className="fa fa-lg fa-github"
+                ></a>
+                &nbsp;GitHub/yaelsprikut
+              </a>
+            </div>
+          </div>
         </div>
-				</div>
-		</div>
+      </div>
     </>
   );
 }

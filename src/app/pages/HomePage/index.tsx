@@ -4,7 +4,10 @@ import '../../../styles/styles.scss';
 
 import { ModeToggle } from '../../components/HomePage/ModeToggle';
 import { Sidebar } from '../../components/HomePage/Sidebar';
-import { ContainerHeader, LinkHeader } from '../../components/HomePage/ContainerHeader';
+import {
+  ContainerHeader,
+  LinkHeader,
+} from '../../components/HomePage/ContainerHeader';
 
 export function HomePage() {
   return (
@@ -13,81 +16,145 @@ export function HomePage() {
         <title>Home Page</title>
         <meta name="description" content="A Boilerplate application homepage" />
       </Helmet>
-      <ModeToggle />      
-<div className="app">
-	<div className="header">
-		<div className="menu-circle"></div>
-		<div className="header-menu">
-			<a className="menu-link is-active" href="#">Apps</a><a className="menu-link" href="#">About Me</a>
-		</div>
-		{/* <div className="search-bar">
+      <ModeToggle />
+      <div className="app">
+        <div className="header">
+          <div className="menu-circle"></div>
+          <div className="header-menu">
+            <a className="menu-link is-active" href="#">
+              Apps
+            </a>
+            <a className="menu-link" href="#">
+              About Me
+            </a>
+          </div>
+          {/* <div className="search-bar">
 			<input placeholder="Search" type="text" />
 		</div> */}
-		<div className="header-profile">
-		<div className="notification">
-		</div><img alt="github image" className="profile-img" src="https://avatars.githubusercontent.com/u/6987802?s=400&u=7a37ff66d9789192a2ea0a3a608590317a90081f&v=4"/></div>
-	</div>
-	<div className="wrapper">
-		<Sidebar />
-		<div className="main-container">
-			<div className="main-header">
-				{/* <a className="menu-link-main" href="#">All Apps</a> */}
-				<div className="header-menu">
-					{/* <LinkHeader /> */}
-				</div>
-			</div>
-			<div className="content-wrapper">
-				{/* <ContainerHeader /> */}
-				
-				<div className="content-section">
-					<div className="content-section-title">
-						React.js
-					</div>
-					<div className="apps-card">
-						<div className="app-card">
-							<span><a className="white-link" href="http://lowereffortmemes.s3.amazonaws.com/index.html">low(er)effortmemes.com</a></span>
-							<div className="app-card__subtext">
-								<img src="./loweffortmemes-thumb.png" width="100%" />
-							</div>
-							<div className="app-card-subtext">
-								Remember <b>I Can Has Cheezburger</b>? It's like that, but less effort
-							</div>
-						</div>
-						<div className="app-card">
-							<span><a className="white-link" href="http://yael.co">yael.co</a></span>
-							<div className="app-card__subtext">
-								<img src="./desktop.png" width="100%" />
-							</div>
-							<div className="app-card-subtext">
-							A website I created as my home site, based on my desktop
-							</div>
-						</div>
-						<div className="app-card">
-							<span><a className="white-link" href="https://yaelsprikut.github.io/update-versions/">$ package.json update editor</a></span>
-								<div className="app-card__subtext">
-									<img src="./update-npm.png" width="100%" />
-								</div>
-								<div className="app-card-subtext">
-								A simple web interface for updating library versions in package.json
-								</div>
-						</div>
-					</div>
-					<div className="content-section">
-					<div className="content-section-title">
-						Raspberry PI Projects
-					</div>
-					<div className="app-card">
-							<span><a className="white-link" href="https://yaelsprikut.github.io/update-versions/">RPi VLC Server</a></span>
-							<div className="app-card__subtext">
-									<img src="./rpi-music.jpeg" width="100%" />
-								</div>
-								<div className="app-card-subtext">
-								a media server / jukebox. I’m hosting all my .mp3 files on old USBs, and I’m running nvlc to play the files.
-								configured with <a className="white-link" href="https://github.com/dtcooper/raspotify"><b>raspotify</b></a>
-								</div>
-							</div>
-				</div>
-					{/* <ul>
+          <div className="header-profile">
+            <div className="notification"></div>
+            <img
+              alt="github image"
+              className="profile-img"
+              src="https://avatars.githubusercontent.com/u/6987802?s=400&u=7a37ff66d9789192a2ea0a3a608590317a90081f&v=4"
+            />
+          </div>
+        </div>
+        <div className="wrapper">
+          <Sidebar />
+          <div className="main-container">
+            <div className="main-header">
+              {/* <a className="menu-link-main" href="#">All Apps</a> */}
+              <div className="header-menu">{/* <LinkHeader /> */}</div>
+            </div>
+            <div className="content-wrapper">
+              {/* <ContainerHeader /> */}
+
+              <div className="content-section">
+                <div className="content-section-title">React.js</div>
+                <div className="apps-card">
+                  <div className="app-card">
+                    <span>
+                      <a
+                        className="white-link"
+                        href="http://lowereffortmemes.s3.amazonaws.com/index.html"
+                      >
+                        low(er)effortmemes.com
+                      </a>
+                    </span>
+                    <div className="app-card__subtext">
+                      <img src="./loweffortmemes-thumb.png" width="100%" />
+                    </div>
+                    <div className="app-card-subtext">
+                      Remember <b>I Can Has Cheezburger</b>? It's like that, but
+                      less effort
+                    </div>
+                  </div>
+                  <div className="app-card">
+                    <span>
+                      <a className="white-link" href="http://yael.co">
+                        yael.co
+                      </a>
+                    </span>
+                    <div className="app-card__subtext">
+                      <img src="./desktop.png" width="100%" />
+                    </div>
+                    <div className="app-card-subtext">
+                      A website I created as my home site, based on my desktop
+                    </div>
+                  </div>
+                  <div className="app-card">
+                    <span>
+                      <a
+                        className="white-link"
+                        href="https://yaelsprikut.github.io/update-versions/"
+                      >
+                        $ package.json update editor
+                      </a>
+                    </span>
+                    <div className="app-card__subtext">
+                      <img src="./update-npm.png" width="100%" />
+                    </div>
+                    <div className="app-card-subtext">
+                      A simple web interface for updating library versions in
+                      package.json
+                    </div>
+                  </div>
+                </div>
+                <div className="content-section">
+                  <div className="content-section-title">
+                    Raspberry PI Projects
+                  </div>
+                  <div className="app-card">
+                    <span>
+                      <a
+                        className="white-link"
+                        href="https://yaelsprikut.github.io/update-versions/"
+                      >
+                        RPi VLC Server
+                      </a>
+                    </span>
+                    <div className="app-card__subtext">
+                      <img src="./rpi-music.jpeg" width="100%" />
+                    </div>
+                    <div className="app-card-subtext">
+                      a media server / jukebox. I’m hosting all my .mp3 files on
+                      old USBs, and I’m running nvlc to play the files.
+                      configured with{' '}
+                      <a
+                        className="white-link"
+                        href="https://github.com/dtcooper/raspotify"
+                      >
+                        <b>raspotify</b>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="app-card">
+                    <span>
+                      <a
+                        className="white-link"
+                        href="https://yaelsprikut.github.io/update-versions/"
+                      >
+                        RPi VLC Server
+                      </a>
+                    </span>
+                    <div className="app-card__subtext">
+                      <img src="./rpi-music.jpeg" width="100%" />
+                    </div>
+                    <div className="app-card-subtext">
+                      a media server / jukebox. I’m hosting all my .mp3 files on
+                      old USBs, and I’m running nvlc to play the files.
+                      configured with{' '}
+                      <a
+                        className="white-link"
+                        href="https://github.com/dtcooper/raspotify"
+                      >
+                        <b>raspotify</b>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                {/* <ul>
 						<li className="adobe-product">
 							<div className="products">
 								<svg style={{"border": "1px solid #3291b8"}} viewBox="0 0 52 52">
@@ -187,13 +254,11 @@ export function HomePage() {
 							</div>
 						</li>
 					</ul> */}
-				</div>
-				<div className="content-section">
-					<div className="content-section-title">
-						Backbone.js
-					</div>
-					🚧&nbsp;&nbsp;Under construction 🚧
-					{/* <div className="apps-card">
+              </div>
+              <div className="content-section">
+                <div className="content-section-title">Backbone.js</div>
+                🚧&nbsp;&nbsp;Under construction 🚧
+                {/* <div className="apps-card">
 						<div className="app-card">
 							<span><svg style={{"border": "1px solid #a059a9"}} viewBox="0 0 512 512">
 							<path d="M480 0H32C14.368 0 0 14.368 0 32v448c0 17.664 14.368 32 32 32h448c17.664 0 32-14.336 32-32V32c0-17.632-14.336-32-32-32z" data-original="#7b1fa2" fill="#210027" xmlns="http://www.w3.org/2000/svg"></path>
@@ -237,18 +302,16 @@ export function HomePage() {
 							</div>
 						</div>
 					</div> */}
-				</div>
-				<div className="content-section">
-					<div className="content-section-title">
-						Vue.js
-					</div>
-					🚧&nbsp;&nbsp;Under construction 🚧
-				</div>
-			</div>
-		</div>
-	</div>
-	<div className="overlay-app"></div>
-</div>
+              </div>
+              <div className="content-section">
+                <div className="content-section-title">Vue.js</div>
+                🚧&nbsp;&nbsp;Under construction 🚧
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="overlay-app"></div>
+      </div>
     </>
   );
 }
