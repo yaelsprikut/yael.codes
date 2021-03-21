@@ -75,7 +75,73 @@ export function HomePage() {
             </div> */}
             <div className="content-wrapper">
               {/* <ContainerHeader /> */}
-
+              <div className="content-section">
+                <div className="content-section-title">
+                  Arduino &amp; Raspberry Pi Projects
+                </div>
+                <div className="apps-card">
+                  <div className="app-card">
+                    <span>
+                      <a className="white-link">Arduino Nano LED</a>
+                    </span>
+                    <div className="app-card__subtext">
+                      <img src="./arduino.gif" width="721px" height="362px" />
+                    </div>
+                    <div className="app-card-subtext">
+                      This small project is my first Arduino project built with
+                      Arduino Nano and Adafruit NeoPixel ring to create this
+                      awesome mini lightshow.{' '}
+                      <a
+                        className="white-link"
+                        href="https://github.com/yaelsprikut/arduino-scripts"
+                      >
+                        Github
+                      </a>
+                    </div>
+                  </div>
+                  <div className="app-card">
+                    <span>
+                      <a
+                        className="white-link"
+                        href="https://yaelsprikut.github.io/update-versions/"
+                      >
+                        RPi VLC Server
+                      </a>
+                    </span>
+                    <div className="app-card__subtext">
+                      <img src="./rpi-music.jpeg" width="100%" />
+                    </div>
+                    <div className="app-card-subtext">
+                      A media server / jukebox. I’m hosting all my .mp3 files on
+                      old USBs, and I’m running nvlc to play the files.
+                      configured with{' '}
+                      <a
+                        className="white-link"
+                        href="https://github.com/dtcooper/raspotify"
+                      >
+                        <b>raspotify</b>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="app-card">
+                    <span>
+                      <a className="white-link">RPi GPi</a>
+                    </span>
+                    <div className="app-card__subtext">
+                      <img src="./gpi.png" width="721px" height="362px" />
+                    </div>
+                    <div className="app-card-subtext">
+                      GPi running on the tiny $10 Raspberry Pi Zero computer
+                      using the free{' '}
+                      <a className="white-link" href="https://retropie.org.uk/">
+                        <b>RetroPie</b>
+                      </a>{' '}
+                      software library. First game installed is{' '}
+                      <b>Mortal Kombat</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="content-section">
                 <div className="content-section-title">React.js</div>
                 <div className="apps-card">
@@ -228,76 +294,11 @@ export function HomePage() {
 						</li>
 					</ul> */}
               </div>
-              <div className="content-section">
+              {/* <div className="content-section">
                 <div className="content-section-title">
                   Raspberry PI Projects
                 </div>
-                <div className="apps-card">
-                  <div className="app-card">
-                    <span>
-                      <a
-                        className="white-link"
-                        href="https://yaelsprikut.github.io/update-versions/"
-                      >
-                        RPi VLC Server
-                      </a>
-                    </span>
-                    <div className="app-card__subtext">
-                      <img src="./rpi-music.jpeg" width="100%" />
-                    </div>
-                    <div className="app-card-subtext">
-                      A media server / jukebox. I’m hosting all my .mp3 files on
-                      old USBs, and I’m running nvlc to play the files.
-                      configured with{' '}
-                      <a
-                        className="white-link"
-                        href="https://github.com/dtcooper/raspotify"
-                      >
-                        <b>raspotify</b>
-                      </a>
-                    </div>
-                  </div>
-                  <div className="app-card">
-                    <span>
-                      <a className="white-link">RPi GPi</a>
-                    </span>
-                    <div className="app-card__subtext">
-                      <img src="./gpi.png" width="721px" height="362px" />
-                    </div>
-                    <div className="app-card-subtext">
-                      GPi running on the tiny $10 Raspberry Pi Zero computer
-                      using the free{' '}
-                      <a className="white-link" href="https://retropie.org.uk/">
-                        <b>RetroPie</b>
-                      </a>{' '}
-                      software library. First game installed is{' '}
-                      <b>Mortal Kombat</b>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="content-section">
-                <div className="content-section-title">Arduino</div>
-                <div className="app-card">
-                  <span>
-                    <a className="white-link">Arduino Nano LED</a>
-                  </span>
-                  <div className="app-card__subtext">
-                    <img src="./arduino.gif" width="721px" height="362px" />
-                  </div>
-                  <div className="app-card-subtext">
-                    This small project is my first Arduino project built with
-                    Arduino Nano and Adafruit NeoPixel ring to create this
-                    awesome mini lightshow.{' '}
-                    <a
-                      className="white-link"
-                      href="https://github.com/yaelsprikut/arduino-scripts"
-                    >
-                      Github
-                    </a>
-                  </div>
-                </div>
-              </div>
+              </div> */}
               <div className="content-section under-construction">
                 <div className="content-section-title">Backbone.js</div>
                 🚧&nbsp;&nbsp;Under construction 🚧
