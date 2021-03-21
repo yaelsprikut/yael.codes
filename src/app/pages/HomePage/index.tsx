@@ -16,7 +16,7 @@ export function HomePage() {
         <title>Home Page</title>
         <meta name="description" content="yael.codes homepage" />
       </Helmet>
-      <ModeToggle />
+      {/* <ModeToggle /> */}
       <div className="show-for-mobile">
         <div className="header">
           <div className="menu-circle"></div>
@@ -69,10 +69,10 @@ export function HomePage() {
         <div className="wrapper">
           <Sidebar />
           <div className="main-container">
-            <div className="main-header">
-              {/* <a className="menu-link-main" href="#">All Apps</a> */}
-              <div className="header-menu">{/* <LinkHeader /> */}</div>
-            </div>
+            {/* <div className="main-header">
+              <a className="menu-link-main" href="#">All Apps</a>
+              <div className="header-menu"><LinkHeader /></div>
+            </div> */}
             <div className="content-wrapper">
               {/* <ContainerHeader /> */}
 
