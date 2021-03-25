@@ -4,10 +4,10 @@ import '../../../styles/styles.scss';
 
 import { ModeToggle } from '../../components/HomePage/ModeToggle';
 import { Sidebar } from '../../components/HomePage/Sidebar';
-// import {
-//   ContainerHeader,
-//   LinkHeader,
-// } from '../../components/HomePage/ContainerHeader';
+import {
+  // ContainerHeader,
+  LinkHeader,
+} from '../../components/HomePage/ContainerHeader';
 
 export function HomePage() {
   return (
@@ -69,10 +69,10 @@ export function HomePage() {
         <div className="wrapper">
           <Sidebar />
           <div className="main-container">
-            {/* <div className="main-header">
+            <div className="main-header">
               <a className="menu-link-main" href="#">All Apps</a>
               <div className="header-menu"><LinkHeader /></div>
-            </div> */}
+            </div>
             <div className="content-wrapper">
               {/* <ContainerHeader /> */}
               <div className="content-section">
