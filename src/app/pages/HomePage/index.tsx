@@ -25,7 +25,7 @@ export function HomePage() {
               Apps
             </a>
             <a className="menu-link" href="#">
-              About Moiiii
+              About Me
             </a>
           </div>
           <div className="header-profile">
@@ -51,7 +51,7 @@ export function HomePage() {
               Apps
             </a>
             <a className="menu-link" href="#">
-              About Me
+              About MOI
             </a>
           </div>
           {/* <div className="search-bar">
