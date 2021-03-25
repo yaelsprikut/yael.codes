@@ -25,7 +25,7 @@ export function HomePage() {
               Apps
             </a>
             <a className="menu-link" href="#">
-              About Me
+              About Moi
             </a>
           </div>
           <div className="header-profile">
