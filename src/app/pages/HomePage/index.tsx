@@ -51,7 +51,7 @@ export function HomePage() {
               Apps
             </a>
             <a className="menu-link" href="#">
-              About MOI
+              About Me
             </a>
           </div>
           {/* <div className="search-bar">
@@ -190,6 +190,27 @@ export function HomePage() {
                     <div className="app-card-subtext">
                       A simple web interface for updating library versions in
                       package.json
+                    </div>
+                  </div>
+                </div>
+                <br/>
+                <div className="apps-card">
+                  <div className="app-card">
+                    <span>
+                      <a
+                        className="white-link"
+                        href="http://74f93ab716c6.ngrok.io/"
+                      >
+                        yael.world
+                      </a>
+                    </span>
+                    <div className="app-card__subtext">
+                      <img src="./ezgif.com-gif-maker.gif" width="100%" />
+                    </div>
+                    <div className="app-card-subtext">
+                      Basically a collection of all the places I want to go. <b>Refresh the page</b> to load new image.
+                      <br/><br/>
+                      <u>Why this project is cool</u>: I'm actually hosting this on my RPi3 (Raspbian OS) with the help of <b><a className="white-link" href="https://www.nginx.com/">nginx</a></b> and <b><a className="white-link" href="https://ngrok.com/">ngrok</a></b>.
                     </div>
                   </div>
                 </div>
