@@ -30,11 +30,13 @@ export function HomePage() {
           </div>
           <div className="header-profile">
             <div className="notification"></div>
-            <img
-              alt="github"
-              className="profile-img"
-              src="https://avatars.githubusercontent.com/u/6987802?s=400&u=7a37ff66d9789192a2ea0a3a608590317a90081f&v=4"
-            />
+            <a href="https://github.com/yaelsprikut/">
+              <img
+                alt="github"
+                className="profile-img"
+                src="https://avatars.githubusercontent.com/u/6987802?s=400&u=7a37ff66d9789192a2ea0a3a608590317a90081f&v=4"
+              />
+            </a>
           </div>
         </div>
         <div className="construction-message">
@@ -59,11 +61,13 @@ export function HomePage() {
 		</div> */}
           <div className="header-profile">
             <div className="notification"></div>
-            <img
-              alt="github"
-              className="profile-img"
-              src="https://avatars.githubusercontent.com/u/6987802?s=400&u=7a37ff66d9789192a2ea0a3a608590317a90081f&v=4"
-            />
+            <a target="_blank" href="https://github.com/yaelsprikut/">
+              <img
+                alt="github"
+                className="profile-img"
+                src="https://avatars.githubusercontent.com/u/6987802?s=400&u=7a37ff66d9789192a2ea0a3a608590317a90081f&v=4"
+              />
+            </a>
           </div>
         </div>
         <div className="wrapper">
@@ -77,7 +81,8 @@ export function HomePage() {
               {/* <ContainerHeader /> */}
               <div className="content-section">
                 <div className="content-section-title">
-                  Arduino &amp; Raspberry Pi Projects
+                🕹️ &nbsp; Arduino &amp; Raspberry Pi Projects
+                <hr className="hr-fancy"/>
                 </div>
                 <div className="apps-card">
                   <div className="app-card">
@@ -143,26 +148,27 @@ export function HomePage() {
                 </div>
               </div>
               <div className="content-section">
-                <div className="content-section-title">React.js</div>
+                <div className="content-section-title">⚛️ &nbsp;React.js<hr className="hr-fancy"/></div>
                 <div className="apps-card">
-                  <div className="app-card">
+                <div className="app-card-sm">
                     <span>
                       <a
                         className="white-link"
-                        href="http://lowereffortmemes.s3.amazonaws.com/index.html"
+                        href="http://74f93ab716c6.ngrok.io/"
                       >
-                        low(er)effortmemes.com
+                        yael.world
                       </a>
                     </span>
                     <div className="app-card__subtext">
-                      <img src="./loweffortmemes-thumb.png" width="100%" />
+                      <img src="./ezgif.com-gif-maker.gif" width="100%" />
                     </div>
                     <div className="app-card-subtext">
-                      Remember <b>I Can Has Cheezburger</b>? It's like that, but
-                      less effort
+                      Basically a collection of all the places I want to go. <b>Refresh the page</b> to load new image.
+                      <br/><br/>
+                      <u>Why this project is cool</u>: I'm actually hosting this on my RPi3 (Raspbian OS) with the help of <b><a className="white-link" href="https://www.nginx.com/">nginx</a></b> and <b><a className="white-link" href="https://ngrok.com/">ngrok</a></b>.
                     </div>
                   </div>
-                  <div className="app-card">
+                  <div className="app-card-sm">
                     <span>
                       <a className="white-link" href="http://yael.co">
                         yael.co
@@ -175,7 +181,7 @@ export function HomePage() {
                       A website I created as my home site, based on my desktop
                     </div>
                   </div>
-                  <div className="app-card">
+                  <div className="app-card-sm">
                     <span>
                       <a
                         className="white-link"
@@ -195,22 +201,21 @@ export function HomePage() {
                 </div>
                 <br/>
                 <div className="apps-card">
-                  <div className="app-card">
+                <div className="app-card-sm">
                     <span>
                       <a
                         className="white-link"
-                        href="http://74f93ab716c6.ngrok.io/"
+                        href="http://lowereffortmemes.s3.amazonaws.com/index.html"
                       >
-                        yael.world
+                        low(er)effortmemes.com
                       </a>
                     </span>
                     <div className="app-card__subtext">
-                      <img src="./ezgif.com-gif-maker.gif" width="100%" />
+                      <img src="./loweffortmemes-thumb.png" width="100%" />
                     </div>
                     <div className="app-card-subtext">
-                      Basically a collection of all the places I want to go. <b>Refresh the page</b> to load new image.
-                      <br/><br/>
-                      <u>Why this project is cool</u>: I'm actually hosting this on my RPi3 (Raspbian OS) with the help of <b><a className="white-link" href="https://www.nginx.com/">nginx</a></b> and <b><a className="white-link" href="https://ngrok.com/">ngrok</a></b>.
+                      Remember <b>I Can Has Cheezburger</b>? It's like that, but
+                      less effort
                     </div>
                   </div>
                 </div>
