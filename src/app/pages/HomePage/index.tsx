@@ -195,7 +195,7 @@ export function HomePage() {
                     </div>
                     <div className="app-card-subtext">
                       A simple web interface for updating library versions in
-                      package.json
+                      package.json. I'm using Github Pages to host this <small>small</small> web app.
                     </div>
                   </div>
                 </div>
