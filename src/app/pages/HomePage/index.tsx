@@ -154,7 +154,7 @@ export function HomePage() {
                     <span>
                       <a
                         className="white-link"
-                        href="http://74f93ab716c6.ngrok.io/"
+                        href="http://yael.world"
                       >
                         yael.world
                       </a>
