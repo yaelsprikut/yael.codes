@@ -150,32 +150,14 @@ export function HomePage() {
               <div className="content-section">
                 <div className="content-section-title">⚛️ &nbsp;React.js<hr className="hr-fancy"/></div>
                 <div className="apps-card">
-                <div className="app-card-sm">
-                    <span>
-                      <a
-                        className="white-link"
-                        href="http://yael.world"
-                      >
-                        yael.world
-                      </a>
-                    </span>
-                    <div className="app-card__subtext">
-                      <img src="./ezgif.com-gif-maker.gif" width="100%" />
-                    </div>
-                    <div className="app-card-subtext">
-                      <b>Refresh the page</b> to load new location.
-                      <br/><br/>
-                      <u>Why this project is cool</u>: I'm actually hosting this on my RPi3 (Raspbian OS) with the help of <b><a className="white-link" href="https://www.nginx.com/">nginx</a></b> and <b><a className="white-link" href="https://ngrok.com/">ngrok</a></b>.
-                    </div>
-                  </div>
-                  <div className="app-card-sm">
+               <div className="app-card-sm">
                     <span>
                       <a className="white-link" href="http://yael.co">
                         yael.co
                       </a>
                     </span>
                     <div className="app-card__subtext">
-                      <img src="./desktop.png" width="100%" />
+                      <img src="./desktop.png" />
                     </div>
                     <div className="app-card-subtext">
                       A website I created as my home site, based on my desktop
@@ -191,33 +173,33 @@ export function HomePage() {
                       </a>
                     </span>
                     <div className="app-card__subtext">
-                      <img src="./update-npm.png" width="100%" />
+                      <img src="./update-npm.png" />
                     </div>
                     <div className="app-card-subtext">
                       A simple web interface for updating library versions in
                       package.json. I'm using Github Pages to host this <small>small</small> web app.
                     </div>
                   </div>
-                </div>
-                <br/>
-                <div className="apps-card">
-                <div className="app-card-sm">
+                  <div className="app-card-sm">
                     <span>
                       <a
                         className="white-link"
-                        href="http://lowereffortmemes.s3.amazonaws.com/index.html"
+                        href="https://memesonly.ca"
                       >
-                        low(er)effortmemes.com
+                        MemesOnly.ca
                       </a>
                     </span>
                     <div className="app-card__subtext">
-                      <img src="./loweffortmemes-thumb.png" width="100%" />
+                      <img src="./loweffortmemes-thumb.png" />
                     </div>
                     <div className="app-card-subtext">
                       Remember <b>I Can Has Cheezburger</b>? It's like that, but
                       less effort
                     </div>
                   </div>
+                </div>
+                <br/>
+                <div className="apps-card">
                 </div>
                 {/* <ul>
 						<li className="adobe-product">
