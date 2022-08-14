@@ -67,9 +67,10 @@ export function Sidebar() {
                 ></a>
                 &nbsp;GitHub/yaelsprikut
               </a>
-			  <br/><br/>
-			  <h3 className="white-header">👇&nbsp;scrollable&nbsp;👇</h3>
-			<img src="./dlf.pt-down-arrow-png-115728.png" />
+              <br />
+              <br />
+              <h3 className="white-header">👇&nbsp;scrollable&nbsp;👇</h3>
+              <img src="./dlf.pt-down-arrow-png-115728.png" />
             </div>
           </div>
         </div>

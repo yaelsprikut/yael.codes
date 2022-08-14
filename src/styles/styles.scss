@@ -824,7 +824,8 @@ body.light-mode:before {
     margin-right: 12px;
     flex-shrink: 0;
   }
-  & + .app-card, .app-card-sm {
+  & + .app-card,
+  .app-card-sm {
     margin-left: 20px;
   }
   span {
@@ -855,7 +856,8 @@ body.light-mode:before {
   @media screen and (max-width: 565px) {
     width: calc(100% - 20px);
     margin-top: 20px;
-    & + .app-card, .app-card-sm {
+    & + .app-card,
+    .app-card-sm {
       margin-left: 0;
     }
   }
@@ -893,7 +895,8 @@ body.light-mode:before {
     margin-right: 12px;
     flex-shrink: 0;
   }
-  & + .app-card, .app-card-sm {
+  & + .app-card,
+  .app-card-sm {
     margin-left: 20px;
   }
   span {
@@ -924,7 +927,8 @@ body.light-mode:before {
   @media screen and (max-width: 565px) {
     width: calc(100% - 20px);
     margin-top: 20px;
-    & + .app-card, .app-card-sm {
+    & + .app-card,
+    .app-card-sm {
       margin-left: 0;
     }
   }
