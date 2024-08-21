@@ -14,7 +14,7 @@ export function HomePage() {
     <>
       <Helmet>
         <title>Home Page</title>
-        <meta name="description" content="yael.codes homepage" />
+        <meta name="description" content="yael.world homepage" />
       </Helmet>
       {/* <ModeToggle /> */}
       <div className="show-for-mobile">
@@ -61,7 +61,11 @@ export function HomePage() {
 		</div> */}
           <div className="header-profile">
             <div className="notification"></div>
-            <a target="_blank" href="https://github.com/yaelsprikut/">
+            <a
+              target="_blank"
+              href="https://github.com/yaelsprikut/"
+              rel="noreferrer"
+            >
               <img
                 alt="github"
                 className="profile-img"
@@ -81,8 +85,8 @@ export function HomePage() {
               {/* <ContainerHeader /> */}
               <div className="content-section">
                 <div className="content-section-title">
-                🕹️ &nbsp; Arduino &amp; Raspberry Pi Projects
-                <hr className="hr-fancy"/>
+                  🕹️ &nbsp; Arduino &amp; Raspberry Pi Projects
+                  <hr className="hr-fancy" />
                 </div>
                 <div className="apps-card">
                   <div className="app-card">
@@ -148,14 +152,14 @@ export function HomePage() {
                 </div>
               </div>
               <div className="content-section">
-                <div className="content-section-title">⚛️ &nbsp;React.js<hr className="hr-fancy"/></div>
+                <div className="content-section-title">
+                  ⚛️ &nbsp;React.js
+                  <hr className="hr-fancy" />
+                </div>
                 <div className="apps-card">
-                <div className="app-card-sm">
+                  <div className="app-card-sm">
                     <span>
-                      <a
-                        className="white-link"
-                        href="http://yael.world"
-                      >
+                      <a className="white-link" href="http://yael.world">
                         yael.world
                       </a>
                     </span>
@@ -164,8 +168,22 @@ export function HomePage() {
                     </div>
                     <div className="app-card-subtext">
                       <b>Refresh the page</b> to load new location.
-                      <br/><br/>
-                      <u>Why this project is cool</u>: I'm actually hosting this on my RPi3 (Raspbian OS) with the help of <b><a className="white-link" href="https://www.nginx.com/">nginx</a></b> and <b><a className="white-link" href="https://ngrok.com/">ngrok</a></b>.
+                      <br />
+                      <br />
+                      <u>Why this project is cool</u>: I'm actually hosting this
+                      on my RPi3 (Raspbian OS) with the help of{' '}
+                      <b>
+                        <a className="white-link" href="https://www.nginx.com/">
+                          nginx
+                        </a>
+                      </b>{' '}
+                      and{' '}
+                      <b>
+                        <a className="white-link" href="https://ngrok.com/">
+                          ngrok
+                        </a>
+                      </b>
+                      .
                     </div>
                   </div>
                   <div className="app-card-sm">
@@ -195,13 +213,14 @@ export function HomePage() {
                     </div>
                     <div className="app-card-subtext">
                       A simple web interface for updating library versions in
-                      package.json. I'm using Github Pages to host this <small>small</small> web app.
+                      package.json. I'm using Github Pages to host this{' '}
+                      <small>small</small> web app.
                     </div>
                   </div>
                 </div>
-                <br/>
+                <br />
                 <div className="apps-card">
-                <div className="app-card-sm">
+                  <div className="app-card-sm">
                     <span>
                       <a
                         className="white-link"

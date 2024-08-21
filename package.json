@@ -1,5 +1,5 @@
 {
-  "name": "yael.codes",
+  "name": "yael.world",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -66,7 +66,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "aws s3 sync build/ s3://yael.codes --acl public-read",
+    "deploy": "aws s3 sync build/ s3://yael.world --acl public-read",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "test:generators": "ts-node --project=./internals/ts-node.tsconfig.json ./internals/testing/generators/test-generators.ts",
